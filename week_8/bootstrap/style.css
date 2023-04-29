@@ -1,0 +1,43 @@
+.header {
+    background-color: #363636;
+    margin-bottom: 20px;
+}
+
+.header .row {
+    color: white;
+    font-size: larger;
+    padding: 20px 0;
+}
+
+.header .row .col-1 {
+    opacity: 0.5;
+}
+
+.header .row .col-1:hover {
+    opacity: 1;
+}
+
+.section-warm {
+    background-color: lightgrey;
+    padding: 50px 20px;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.section-warm .card {
+    margin-bottom: 15px;
+}
+
+.section-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    text-align: center;
+}
+
+.card>h5,
+p {
+    padding: 10px 0;
+}
